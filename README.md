@@ -112,7 +112,7 @@ Install these dependencies on the target machine before deploying or running the
 
 ### Required
 
-- .NET 8 Runtime, or .NET 8 SDK if running with `dotnet run`.
+- .NET 10 Runtime, or .NET 10 SDK if running with `dotnet run`.
 - Network access during first setup, unless all NuGet packages, Playwright browsers, and Mermaid assets are preinstalled.
 - A user profile with write access to local application data, because Mermaid is cached under:
 
@@ -122,7 +122,7 @@ Install these dependencies on the target machine before deploying or running the
 
 ### Required For Build
 
-- .NET 8 SDK.
+- .NET 10 SDK.
 - NuGet package restore access.
 
 NuGet packages used by the project:
